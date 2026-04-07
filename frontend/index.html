@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AgroAssist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Your existing website content goes here -->
+  <div class="page-content">
+    <h1>Welcome to AgroAssist</h1>
+    <p>Your AI-powered smart farming assistant.</p>
+  </div>
+
+  <!-- Chatbot bubble button -->
+  <div id="chat-bubble" onclick="toggleChat()" title="Ask AgroAssist">
+    <svg id="bubble-icon-open" width="26" height="26" viewBox="0 0 24 24"
+         fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+    </svg>
+    <svg id="bubble-icon-close" width="22" height="22" viewBox="0 0 24 24"
+         fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"
+         style="display:none;">
+      <line x1="18" y1="6" x2="6" y2="18"/>
+      <line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </div>
+
+  <!-- Chat window -->
+  <div id="chat-window">
+
+    <!-- Header -->
+    <div id="chat-header">
+      <div id="header-left">
+        <div id="header-avatar">A</div>
+        <div>
+          <div id="chat-title">AgroAssist</div>
+          <div id="chat-subtitle">Plant &amp; farming assistant</div>
+        </div>
+      </div>
+      <button id="chat-close-btn" onclick="toggleChat()">&#10005;</button>
+    </div>
+
+    <!-- Messages area -->
+    <div id="chat-messages">
+      <div class="msg bot-msg">
+        Hi! I am AgroAssist. Ask me anything about plant diseases,
+        remedies, fertilizers or farming tips.
+      </div>
+    </div>
+
+    <!-- Input area -->
+    <!-- <div id="chat-input-area">
+      <input
+        type="text"
+        id="chat-input"
+        placeholder="Ask about plants, diseases..."
+        onkeydown="if(event.key==='Enter') sendMessage()"
+        autocomplete="off"
+      />
+      <button id="chat-send-btn" onclick="sendMessage()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="white" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/>
+          <polygon points="22 2 15 22 11 13 2 9 22 2" fill="white"/>
+        </svg>
+      </button>
+    </div> -->
+
+    <!-- Input area -->
+<div id="chat-input-area">
+  <input
+    type="text"
+    id="chat-input"
+    placeholder="Ask about plants or tap mic..."
+    onkeydown="if(event.key==='Enter') sendMessage()"
+    autocomplete="off"
+  />
+  <button id="chat-mic-btn" onclick="toggleVoiceInput()" title="Speak">
+    <svg id="mic-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+         stroke="white" stroke-width="2" stroke-linecap="round">
+      <rect x="9" y="2" width="6" height="11" rx="3"/>
+      <path d="M19 10a7 7 0 01-14 0"/>
+      <line x1="12" y1="19" x2="12" y2="23"/>
+      <line x1="8" y1="23" x2="16" y2="23"/>
+    </svg>
+  </button>
+  <button id="chat-send-btn" onclick="sendMessage()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+         stroke="white" stroke-width="2.5" stroke-linecap="round"
+         stroke-linejoin="round">
+      <line x1="22" y1="2" x2="11" y2="13"/>
+      <polygon points="22 2 15 22 11 13 2 9 22 2" fill="white"/>
+    </svg>
+  </button>
+</div>
+
+
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
