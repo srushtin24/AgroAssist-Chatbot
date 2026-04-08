@@ -81,9 +81,26 @@ Response + Sources
 - Web Speech API (STT + TTS)
 
 
-## 💡 Design Decisions<br>
+## 💡 Design Decisions
 RAG over Fine-Tuning → Dynamic and cost-efficient<br>
 Context Restriction Prompting → Reduces hallucinations<br>
 Lightweight Embeddings (MiniLM) → Fast and efficient<br>
 Source Attribution → Improves trust<br>
 Groq Inference → Low-latency responses<br>
+
+## 🔮 Future Improvements
+Hybrid search (semantic + keyword)<br>
+Persistent memory (Redis / DB)<br>
+Real-time data integration<br>
+Response streaming<br>
+Guardrails / moderation layer<br>
+Multilingual support<br>
+
+## 📌 Use Case
+
+Designed for farmers and agricultural stakeholders to:
+
+Diagnose plant diseases<br>
+Get actionable remedies<br>
+Access reliable farming knowledge<br>
+Interact via voice<br>
