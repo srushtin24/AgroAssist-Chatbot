@@ -82,25 +82,25 @@ Response + Sources<br>
 
 
 ## 💡 Design Decisions
-RAG over Fine-Tuning → Dynamic and cost-efficient<br>
-Context Restriction Prompting → Reduces hallucinations<br>
-Lightweight Embeddings (MiniLM) → Fast and efficient<br>
-Source Attribution → Improves trust<br>
-Groq Inference → Low-latency responses<br>
+- **RAG over Fine-Tuning** → Dynamic and cost-efficient  
+- **Context Restriction Prompting** → Reduces hallucinations  
+- **Lightweight Embeddings (MiniLM)** → Fast and efficient  
+- **Source Attribution** → Improves trust  
+- **Groq Inference** → Low-latency responses  
 
 ## 🔮 Future Improvements
-Hybrid search (semantic + keyword)<br>
-Persistent memory (Redis / DB)<br>
-Real-time data integration<br>
-Response streaming<br>
-Guardrails / moderation layer<br>
-Multilingual support<br>
+- Hybrid search (semantic + keyword)  
+- Persistent memory (Redis / DB)  
+- Real-time data integration  
+- Response streaming  
+- Guardrails / moderation layer  
+- Multilingual support  
 
 ## 📌 Use Case
 
 Designed for farmers and agricultural stakeholders to:
 
-Diagnose plant diseases<br>
-Get actionable remedies<br>
-Access reliable farming knowledge<br>
-Interact via voice<br>
+- Diagnose plant diseases  
+- Get actionable remedies  
+- Access reliable farming knowledge  
+- Interact via voice  
