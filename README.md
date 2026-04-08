@@ -7,14 +7,14 @@ The AgroAssist Chatbot enables users to ask questions about **plant diseases, re
 
 ## 🚀 Features
 
-- 🔍 Semantic search over agricultural knowledge base  
-- 🤖 Context-aware responses using LLaMA 3 (via Groq)  
-- 📄 Source attribution for transparency  
-- 🧠 Session-based conversational memory  
-- 🎤 Voice input (Speech-to-Text)  
-- 🔊 Voice output (Text-to-Speech)  
-- ⚡ Low-latency inference pipeline  
-- 🌐 Interactive web-based chatbot UI  
+🔍 Semantic search over agricultural knowledge base  
+🤖 Context-aware responses using LLaMA 3 (via Groq)  
+📄 Source attribution for transparency  
+🧠 Session-based conversational memory  
+🎤 Voice input (Speech-to-Text)  
+🔊 Voice output (Text-to-Speech)  
+⚡ Low-latency inference pipeline  
+🌐 Interactive web-based chatbot UI  
 
 
 ## 🏗️ Architecture
