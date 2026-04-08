@@ -18,18 +18,18 @@ The AgroAssist Chatbot enables users to ask questions about **plant diseases, re
 
 
 ## 🏗️ Architecture
-User (Web UI)
-↓
-Frontend (HTML/CSS/JS + Voice)
-↓
-FastAPI Backend
-↓
-RAG Pipeline
-├── Embeddings (MiniLM)
-├── Vector DB (ChromaDB)
-└── LLM (LLaMA 3 via Groq)
-↓
-Response + Sources
+User (Web UI)<br>
+↓<br>
+Frontend (HTML/CSS/JS + Voice)<br>
+↓<br>
+FastAPI Backend<br>
+↓<br>
+RAG Pipeline<br>
+├── Embeddings (MiniLM)<br>
+├── Vector DB (ChromaDB)<br>
+└── LLM (LLaMA 3 via Groq)<br>
+↓<br>
+Response + Sources<br>
 
 
 ## 🔄 Workflow
